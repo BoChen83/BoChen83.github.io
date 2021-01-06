@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://bochenys.github.io/</link>
+      <atom:link href="https://bochenys.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
-      <link>/</link>
+      <link>https://bochenys.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
+      <link>https://bochenys.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example-talk/</guid>
+      <guid>https://bochenys.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,41 +34,41 @@
     
     <item>
       <title>Anomaly Detection via Neighbourhood Contrast</title>
-      <link>/publication/ncad/</link>
+      <link>https://bochenys.github.io/publication/ncad/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/ncad/</guid>
+      <guid>https://bochenys.github.io/publication/ncad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Topological Sweep for Multi-Target Detection of Geostationary Space Objects</title>
-      <link>/publication/topological-sweep/</link>
+      <link>https://bochenys.github.io/publication/topological-sweep/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/topological-sweep/</guid>
+      <guid>https://bochenys.github.io/publication/topological-sweep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
-      <link>/publication/bpnp/</link>
+      <link>https://bochenys.github.io/publication/bpnp/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/bpnp/</guid>
+      <guid>https://bochenys.github.io/publication/bpnp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</title>
-      <link>/publication/spe/</link>
+      <link>https://bochenys.github.io/publication/spe/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/spe/</guid>
+      <guid>https://bochenys.github.io/publication/spe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://bochenys.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://bochenys.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -195,9 +195,9 @@ Three
     
     <item>
       <title>Sattelite Pose Estimation</title>
-      <link>/project/internal-project/</link>
+      <link>https://bochenys.github.io/project/internal-project/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
+      <guid>https://bochenys.github.io/project/internal-project/</guid>
       <description>&lt;p&gt;Estimating the 6DOF pose of space-borne objects (e.g., satellites, spacecraft, orbital debris) is a crucial step in many space operations such as docking, non-cooperative proximity tasks (e.g., debris removal), and inter-spacecraft communications (e.g., establishing quantum links). Existing solutions are mainly based on active sensor-based systems, e.g., the TriDAR system which uses LiDAR. Recently, monocular pose estimation techniques for space applications are drawing significant attention due to their lower power consumption and relatively simple requirements.&lt;/p&gt;
 &lt;p&gt;In this project, we propose an approach to estimate the 6DOF pose of a satellite, relative to a canonical pose, from a single image. Our approach combines machine learning and geometric optimisation, by predicting the coordinates of a set of landmarks in the input image, associating the landmarks to their corresponding 3D points on an a priori reconstructed 3D model, then solving for the object pose using non-linear optimisation. Our approach is not only novel for this specific pose estimation task, which helps to further open up a relatively new domain for machine learning and computer vision, but it also demonstrates superior accuracy and won the first place in the recent Kelvins Pose Estimation Challenge organised by the European Space Agency (ESA).&lt;/p&gt;
 </description>
@@ -205,25 +205,25 @@ Three
     
     <item>
       <title>Local contrast as an effective means to robust clustering against varying densities</title>
-      <link>/publication/lc/</link>
+      <link>https://bochenys.github.io/publication/lc/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/lc/</guid>
+      <guid>https://bochenys.github.io/publication/lc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neighbourhood Contrast: A Better Means to Detect Clusters Than Density</title>
-      <link>/publication/nc/</link>
+      <link>https://bochenys.github.io/publication/nc/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/nc/</guid>
+      <guid>https://bochenys.github.io/publication/nc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://bochenys.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>https://bochenys.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -315,9 +315,9 @@ Three
     
     <item>
       <title>Half-space mass: a maximally robust and efficient data depth method</title>
-      <link>/publication/hm/</link>
+      <link>https://bochenys.github.io/publication/hm/</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/hm/</guid>
+      <guid>https://bochenys.github.io/publication/hm/</guid>
       <description></description>
     </item>
     
