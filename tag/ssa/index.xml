@@ -13,12 +13,11 @@
     </image>
     
     <item>
-      <title>Sattelite Pose Estimation</title>
-      <link>https://bochenys.github.io/project/internal-project/</link>
+      <title>Kelvins SpotGEO Challenge</title>
+      <link>https://bochenys.github.io/project/spotgeo/</link>
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Estimating the 6DOF pose of space-borne objects (e.g., satellites, spacecraft, orbital debris) is a crucial step in many space operations such as docking, non-cooperative proximity tasks (e.g., debris removal), and inter-spacecraft communications (e.g., establishing quantum links). Existing solutions are mainly based on active sensor-based systems, e.g., the TriDAR system which uses LiDAR. Recently, monocular pose estimation techniques for space applications are drawing significant attention due to their lower power consumption and relatively simple requirements.&lt;/p&gt;
-&lt;p&gt;In this project, we propose an approach to estimate the 6DOF pose of a satellite, relative to a canonical pose, from a single image. Our approach combines machine learning and geometric optimisation, by predicting the coordinates of a set of landmarks in the input image, associating the landmarks to their corresponding 3D points on an a priori reconstructed 3D model, then solving for the object pose using non-linear optimisation. Our approach is not only novel for this specific pose estimation task, which helps to further open up a relatively new domain for machine learning and computer vision, but it also demonstrates superior accuracy and won the first place in the recent Kelvins Pose Estimation Challenge organised by the European Space Agency (ESA).&lt;/p&gt;
+      <guid>https://bochenys.github.io/project/spotgeo/</guid>
+      <description>&lt;p&gt;The Geostationary orbit (GEO) is home to many important space assets such as telecommunication and navigational satellites. Monitoring Resident Space Objects (RSOs) in GEO is a crucial aspect in achieving Space Situational Awareness (SSA) and in protecting critical space assets. However, ground-based GEO object detection is challenging due to the extreme distance of the targets, as well as nuisance factors including cloud coverage, atmospheric/weather effects, light pollution, sensor noise/defects, and star occlusions. The Kelvins SpotGEO Challenge is designed to establish to what extent images coming from a low-cost ground-based telescope can be used to detect GEO and near-GEO RSOs solely from image sequences that do not carry any additional meta-data. At the same time, the &lt;a href=&#34;https://doi.org/10.5281/zenodo.3874326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SpotGEO dataset&lt;/a&gt; also addresses the lack of publicly available datasets from a computer vision perspective on the satellite detection problem; by assembling and releasing such a dataset, we hope to spur more efforts on the optical detection of RSOs and enable objective benchmarking for existing and future methods. For more detals about this challenge, visit &lt;a href=&#34;https://kelvins.esa.int/spot-the-geo-satellites/home/&#34;&gt;https://kelvins.esa.int/spot-the-geo-satellites/home/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

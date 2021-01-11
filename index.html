@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#1565c0">
   
 
   
@@ -75,7 +75,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -86,14 +86,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -231,8 +231,8 @@
   
     
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -241,7 +241,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.9763f5be8493c9d07b95458db93fbb03.css">
+  <link rel="stylesheet" href="/css/wowchemy.94d4c83da21eae0e7441d69c96f93833.css">
 
   
 
@@ -260,7 +260,10 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Academic">
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
@@ -331,11 +334,11 @@
   
   
   
-  <script src="/js/wowchemy-init.min.1df0392aab543464b23a85146803aaf2.js"></script>
+  <script src="/js/wowchemy-init.min.7264cf0eba3b66951b36da7d2cecf9c5.js"></script>
 
   
 
-<aside class="search-results" id="search">
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -344,16 +347,20 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
 
       
 
@@ -385,7 +392,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -482,7 +489,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -643,6 +650,8 @@
   
   
   
+  
+
   
 
   
@@ -835,7 +844,7 @@
     <h1>Biography</h1>
 
     <div class="article-style">
-      <p>I am a postdoctoral researcher at the School of Computer Science and the Australian Institute for Machine Learning, at the University of Adelaide. My research interests lie in the intersection of computer vision and machine learning with a focus on geometry-related tasks.</p>
+      <p>I am a postdoctoral researcher at the Australian Institute for Machine Learning (AIML), the University of Adelaide. My research interests lie in the intersection of computer vision and machine learning with a focus on geometry-related tasks.</p>
 
     </div>
 
@@ -843,14 +852,14 @@
 
       
       <div class="col-md-5">
-        <h3>Interests</h3>
+        <div class="section-subheading">Interests</div>
         <ul class="ul-interests">
           
           <li>Artificial Intelligence</li>
           
-          <li>Computer Vision</li>
+          <li>Deep Learning</li>
           
-          <li>Machine Learning</li>
+          <li>Computer Vision</li>
           
         </ul>
       </div>
@@ -858,7 +867,7 @@
 
       
       <div class="col-md-7">
-        <h3>Education</h3>
+        <div class="section-subheading">Education</div>
         <ul class="ul-edu fa-ul">
           
           <li>
@@ -902,6 +911,8 @@
   
   
   
+  
+
   
 
   
@@ -988,8 +999,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Postdoctoral researcher</h4>
-          <h4 class="card-title exp-company text-muted my-0">AIML, the University of Adelaide</h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">Postdoctoral researcher</div>
+          <div class="section-subheading card-title exp-company text-muted my-0">AIML, the University of Adelaide</div>
           <div class="text-muted exp-meta">
             Feb 2019 –
             
@@ -1025,8 +1036,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Teaching Associate</h4>
-          <h4 class="card-title exp-company text-muted my-0">Monash University</h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">Teaching Associate</div>
+          <div class="section-subheading card-title exp-company text-muted my-0">Monash University</div>
           <div class="text-muted exp-meta">
             Jul 2017 –
             
@@ -1062,8 +1073,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Data Analysis Supervisor</h4>
-          <h4 class="card-title exp-company text-muted my-0">Moonbasa</h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">Data Analysis Supervisor</div>
+          <div class="section-subheading card-title exp-company text-muted my-0">Moonbasa</div>
           <div class="text-muted exp-meta">
             Jul 2011 –
             
@@ -1099,8 +1110,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Assistant Research Executive</h4>
-          <h4 class="card-title exp-company text-muted my-0">Ipsos</h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">Assistant Research Executive</div>
+          <div class="section-subheading card-title exp-company text-muted my-0">Ipsos</div>
           <div class="text-muted exp-meta">
             Sep 2010 –
             
@@ -1131,6 +1142,8 @@
   
   
   
+  
+
   
 
   
@@ -1314,9 +1327,9 @@
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3">
+  <div class="section-subheading article-title mb-1 mt-3">
     <a href="/publication/bpnp/">End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</a>
-  </h3>
+  </div>
 
   
   <a href="/publication/bpnp/" class="summary-link">
@@ -1343,22 +1356,22 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1909.06043.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1909.06043.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/bpnp/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/BoChenYS/BPnP" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BoChenYS/BPnP" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -1464,9 +1477,9 @@
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3">
+  <div class="section-subheading article-title mb-1 mt-3">
     <a href="/publication/spe/">Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</a>
-  </h3>
+  </div>
 
   
   <a href="/publication/spe/" class="summary-link">
@@ -1493,25 +1506,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1908.11542.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1908.11542.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/spe/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
+    
   
 
 
@@ -1549,6 +1560,8 @@
   
   
   
+  
+
   
 
   
@@ -1678,9 +1691,118 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/spotgeo_dataset/" >SpotGEO dataset</a>
+    </div>
+
+    
+    <a href="/publication/spotgeo_dataset/"  class="summary-link">
+      <div class="article-style">
+        Official dataset of ESA&rsquo;s Kelvins SpotGEO Challenge
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Bo Chen</span>, <span >
+      Daqi Liu</span>, <span >
+      Tat-Jun Chin</span>, <span >
+      Mark Rutten</span>, <span >
+      Dawa Derksen</span>, <span >
+      Marcus Märtens</span>, <span >
+      Moritz von Looz</span>, <span >
+      Gurvan Lecuyer</span>, <span >
+      Dario Izzo</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/spotgeo_dataset/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.5281/zenodo.3874326" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/ncad/" >Anomaly Detection via Neighbourhood Contrast</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/ncad/"  class="summary-link">
@@ -1723,16 +1845,16 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-030-47436-2_49" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-030-47436-2_49" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/ncad/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -1746,7 +1868,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-47436-2_49" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-47436-2_49" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1787,9 +1909,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/topological-sweep/" >Topological Sweep for Multi-Target Detection of Geostationary Space Objects</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/topological-sweep/"  class="summary-link">
@@ -1833,16 +1955,16 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2003.09583" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2003.09583" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/topological-sweep/cite.bib">
   Cite
-</button>
+</a>
 
 
 
@@ -1893,9 +2015,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/bpnp/" >End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/bpnp/"  class="summary-link">
@@ -1940,22 +2062,22 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1909.06043.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1909.06043.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/bpnp/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/BoChenYS/BPnP" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/BoChenYS/BPnP" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -2011,9 +2133,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/spe/" >Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/spe/"  class="summary-link">
@@ -2057,25 +2179,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1908.11542.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1908.11542.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/spe/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/internal-project/">
-    Project
-  </a>
+    
   
 
 
@@ -2101,116 +2221,6 @@
     <a href="/publication/spe/" >
       <img src="/publication/spe/featured_hud44f96b1d0cf8bd5cae1ea0e235146f1_330284_599d3206065e5bea5000c20b2a3a8c68.jpg" data-src="/publication/spe/featured_hud44f96b1d0cf8bd5cae1ea0e235146f1_330284_150x0_resize_q75_lanczos.jpg" alt="Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement" class="lazyload">
     </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/lc/" >Local contrast as an effective means to robust clustering against varying densities</a>
-    </h3>
-
-    
-    <a href="/publication/lc/"  class="summary-link">
-      <div class="article-style">
-        Most density-based clustering methods have difficulties detecting clusters of hugely different densities in a dataset. A recent …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Bo Chen</span>, <span >
-      Kai Ming Ting</span>, <span >
-      Takashi Washio</span>, <span >
-      Ye Zhu</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/article/10.1007%2Fs10994-017-5693-x" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/lc/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/s10994-017-5693-x" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
     
   </div>
 </div>
@@ -2250,6 +2260,8 @@
   
   
   
+  
+
   
 
   
@@ -2335,36 +2347,9 @@
 
     
     
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar">
-          <div class="btn-group flex-wrap">
-            
-              
-              
-              
-                
-              
-              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-            
-              
-              
-              
-              <a href="#" data-filter=".js-id-SSA" class="btn btn-primary btn-lg">SSA</a>
-            
-              
-              
-              
-              <a href="#" data-filter=".js-id-Demo" class="btn btn-primary btn-lg">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
   
 
-  <div class="isotope projects-container js-layout-masonry ">
+  <div class="isotope projects-container row js-layout-row project-showcase mt-5">
     
 
       
@@ -2372,6 +2357,40 @@
       
 
       
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-SSA">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/spotgeo/" >Kelvins SpotGEO Challenge</a></div>
+
+      
+      <div class="article-style">
+        Spot the GEO satellites challenge co-organised with ESA
+      </div>
+      
+
+      <div class="btn-links">
         
 
 
@@ -2387,22 +2406,151 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-SSA">
-  <div class="card">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      
+      
+      <a href="/project/spotgeo/" >
+        <img src="/project/spotgeo/featured_hu770e14c0ed91c288640e6af1cb0242cc_156349_bbaac326fd3346aa5ac6a4440b7d797f.jpg" data-src="/project/spotgeo/featured_hu770e14c0ed91c288640e6af1cb0242cc_156349_540x0_resize_q75_lanczos.jpg" alt="Kelvins SpotGEO Challenge" class="lazyload">
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+      
+
     
-    
-    
-    
-    <a href="/project/internal-project/"  class="card-image hover-overlay">
-      <img src="/project/internal-project/featured_hu21fe905a143f505feda2dd3578c5b7f5_1317788_40a51d9ccc5588974286045e0917ab13.png" data-src="/project/internal-project/featured_hu21fe905a143f505feda2dd3578c5b7f5_1317788_550x0_resize_lanczos_2.png" alt="Sattelite Pose Estimation" class="img-responsive lazyload">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/internal-project/" >Sattelite Pose Estimation</a></h4>
+
+      
+      
+      
+
+      
+        
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item js-id-SPE">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="/project/spe/" >Sattelite Pose Estimation</a></div>
+
       
       <div class="article-style">
-        <p>Estimate the relative attitude and position of a known spacecraft.</p>
+        Estimate the relative attitude and position of a known spacecraft.
       </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/1908.11542.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/2hzdLqnvQas" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/BoChenYS/satellite-pose-estimation" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Follow
+  </a>
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+      
+      
+      
+      
+      <a href="/project/spe/" >
+        <img src="/project/spe/featured_hu21fe905a143f505feda2dd3578c5b7f5_1317788_a2df32199f86db9363b8f561d3ddc506.png" data-src="/project/spe/featured_hu21fe905a143f505feda2dd3578c5b7f5_1317788_540x0_resize_lanczos_2.png" alt="Sattelite Pose Estimation" class="lazyload">
+      </a>
       
     </div>
   </div>
@@ -2425,6 +2573,8 @@
   
   
   
+  
+
   
 
   
@@ -2655,42 +2805,18 @@
 
     
     
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'event' : "Events",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
 
     
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
         </div>
-      </div>
       </div>
     </script>
     
@@ -2703,15 +2829,27 @@
 
     
     
-
-    
-    
     
 
     
     
+    
 
     
+    
+
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
     
 
     
@@ -2728,7 +2866,7 @@
       
     
     
-    <script src="/js/wowchemy.min.572b7caf7fe601716a0f74d67d754c21.js"></script>
+    <script src="/js/wowchemy.min.297f736e130400781cfee00eff1f1afd.js"></script>
 
     
 
