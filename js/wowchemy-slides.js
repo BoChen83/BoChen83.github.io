@@ -84,7 +84,7 @@
     slides.diagram = false;
   }
   if (slides.diagram) {
-    var mermaidOptions = {};
+    mermaidOptions = {};
     if (typeof slides.diagram_options !== "undefined") {
       mermaidOptions = slides.diagram_options;
     }
@@ -94,4 +94,5 @@
       fixMermaid();
     });
   }
+  var mermaidOptions;
 })();
