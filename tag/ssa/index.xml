@@ -5,7 +5,7 @@
     <link>https://bochenys.github.io/tag/ssa/</link>
       <atom:link href="https://bochenys.github.io/tag/ssa/index.xml" rel="self" type="application/rss+xml" />
     <description>SSA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>SSA</title>
@@ -15,9 +15,9 @@
     <item>
       <title>Kelvins SpotGEO Challenge</title>
       <link>https://bochenys.github.io/project/spotgeo/</link>
-      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://bochenys.github.io/project/spotgeo/</guid>
-      <description>&lt;p&gt;The Geostationary orbit (GEO) is home to many important space assets such as telecommunication and navigational satellites. Monitoring Resident Space Objects (RSOs) in GEO is a crucial aspect in achieving Space Situational Awareness (SSA) and in protecting critical space assets. However, ground-based GEO object detection is challenging due to the extreme distance of the targets, as well as nuisance factors including cloud coverage, atmospheric/weather effects, light pollution, sensor noise/defects, and star occlusions. The Kelvins SpotGEO Challenge is designed to establish to what extent images coming from a low-cost ground-based telescope can be used to detect GEO and near-GEO RSOs solely from image sequences that do not carry any additional meta-data. At the same time, the &lt;a href=&#34;https://doi.org/10.5281/zenodo.3874326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SpotGEO dataset&lt;/a&gt; also addresses the lack of publicly available datasets from a computer vision perspective on the satellite detection problem; by assembling and releasing such a dataset, we hope to spur more efforts on the optical detection of RSOs and enable objective benchmarking for existing and future methods. For more detals about this challenge, visit &lt;a href=&#34;https://kelvins.esa.int/spot-the-geo-satellites/home/&#34;&gt;https://kelvins.esa.int/spot-the-geo-satellites/home/&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The Geostationary orbit (GEO) is home to many important space assets such as telecommunication and navigational satellites. Monitoring Resident Space Objects (RSOs) in GEO is a crucial aspect in achieving Space Situational Awareness (SSA) and in protecting critical space assets. However, ground-based GEO object detection is challenging due to the extreme distance of the targets, as well as nuisance factors including cloud coverage, atmospheric/weather effects, light pollution, sensor noise/defects, and star occlusions. The Kelvins SpotGEO Challenge is designed to establish to what extent images coming from a low-cost ground-based telescope can be used to detect GEO and near-GEO RSOs solely from image sequences that do not carry any additional meta-data. At the same time, the &lt;a href=&#34;https://doi.org/10.5281/zenodo.4432143&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SpotGEO dataset&lt;/a&gt; also addresses the lack of publicly available datasets from a computer vision perspective on the satellite detection problem; by assembling and releasing such a dataset, we hope to spur more efforts on the optical detection of RSOs and enable objective benchmarking for existing and future methods. For more detals about this challenge, visit &lt;a href=&#34;https://kelvins.esa.int/spot-the-geo-satellites/home/&#34;&gt;https://kelvins.esa.int/spot-the-geo-satellites/home/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
