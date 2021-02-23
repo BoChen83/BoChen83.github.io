@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Academic</title>
+    <link>https://bochenys.github.io/publication/</link>
+      <atom:link href="https://bochenys.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://bochenys.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>SpotGEO dataset</title>
+      <link>https://bochenys.github.io/publication/spotgeo_dataset/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/spotgeo_dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly Detection via Neighbourhood Contrast</title>
+      <link>https://bochenys.github.io/publication/ncad/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/ncad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topological Sweep for Multi-Target Detection of Geostationary Space Objects</title>
+      <link>https://bochenys.github.io/publication/topological-sweep/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/topological-sweep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
+      <link>https://bochenys.github.io/publication/bpnp/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/bpnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</title>
+      <link>https://bochenys.github.io/publication/spe/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/spe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local contrast as an effective means to robust clustering against varying densities</title>
+      <link>https://bochenys.github.io/publication/lc/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/lc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neighbourhood Contrast: A Better Means to Detect Clusters Than Density</title>
+      <link>https://bochenys.github.io/publication/nc/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/nc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Half-space mass: a maximally robust and efficient data depth method</title>
+      <link>https://bochenys.github.io/publication/hm/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/hm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
