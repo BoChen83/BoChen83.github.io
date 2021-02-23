@@ -26,7 +26,7 @@
   
   
 
-  <meta name="author" content="Bo Chen" />
+  <meta name="author" content="Nelson Bighetti" />
 
   
   
@@ -95,6 +95,8 @@
 
     
     
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -343,7 +345,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Bo Chen"
+    "name": "Nelson Bighetti"
   },
   
   "publisher": {
@@ -388,6 +390,43 @@
 
   
 
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
 
 
 
@@ -503,7 +542,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -577,6 +616,80 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
@@ -597,6 +710,10 @@
       
 
       
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
       
@@ -686,7 +803,7 @@
     
 
   <span >
-      Bo Chen</span>, <span >
+      Nelson Bighetti</span>, <span >
       Alvaro Parra</span>, <span >
       Jiewei Cao</span>, <span >
       Nan Li</span>, <span >
@@ -950,13 +1067,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://bochenys.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar5_hu25d333fcded103db2f52f7476cb1420a_2264719_270x270_fill_q75_lanczos_center.jpg" alt="Bo Chen"></a>
+      <a href="https://bochenys.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Nelson Bighetti"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://bochenys.github.io/">Bo Chen</a></h5>
-      <h6 class="card-subtitle">Postdoctoral researcher</h6>
-      <p class="card-text">My research interests lie in the intersection of machine learning and computer vision.</p>
+      <h5 class="card-title"><a href="https://bochenys.github.io/">Nelson Bighetti</a></h5>
+      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -971,22 +1088,7 @@
       
     
     <li>
-      <a href="https://www.linkedin.com/in/bochenys/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:g55kern@gmail.com" >
+      <a href="/#contact" >
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -1003,7 +1105,7 @@
       
     
     <li>
-      <a href="https://twitter.com/BoChenYS" target="_blank" rel="noopener">
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
@@ -1011,20 +1113,7 @@
     
     
     
-    
-    
-    
-    
       
-    
-    <li>
-      <a href="https://scholar.google.com.au/citations?user=Q3tOPGcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
     
     
     
@@ -1033,8 +1122,8 @@
       
     
     <li>
-      <a href="https://orcid.org/0000-0002-1589-8082" target="_blank" rel="noopener">
-        <i class="ai ai-orcid"></i>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
       </a>
     </li>
   
@@ -1050,8 +1139,25 @@
       
     
     <li>
-      <a href="https://github.com/bochenys" target="_blank" rel="noopener">
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
         <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
       </a>
     </li>
   
@@ -1101,15 +1207,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/spe/">Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</a></li>
-      
-    </ul>
-  </div>
   
 
 
@@ -1213,12 +1310,31 @@
     
     
     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
     
 
     
@@ -1233,6 +1349,14 @@
 
     
     
+      
+      
+      
+      
+      
+      
+      
+    
 
     
     
@@ -1242,8 +1366,11 @@
     
     
     
+      
+      
     
-    <script src="/en/js/wowchemy.min.0a233ecde900ea57d5cd5ad14636ad45.js"></script>
+    
+    <script src="/en/js/wowchemy.min.da24410d66bdccf1befef1852c04514b.js"></script>
 
     
 

@@ -5,7 +5,7 @@
     <link>https://bochenys.github.io/project/</link>
       <atom:link href="https://bochenys.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,31 +13,15 @@
     </image>
     
     <item>
-      <title>Cactus Mapping</title>
-      <link>https://bochenys.github.io/project/cactus/</link>
-      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/project/cactus/</guid>
-      <description>&lt;p&gt;The invasive Opuntia robusta wheel cactus continues to spread in the iconic Flinders Ranges and elsewhere around Australia, despite substantial control efforts by volunteers and land managers. This cactus is a Weed of National Significance (WONS), and causes substantial environmental degradation by outcompeting native flora, degrading habitat, reducing available food sources, and can even cause injury and death to native fauna, including the near-threatened Yellow-footed Rock Wallaby.
-This project conducted investigations into the potential of computer vision and machine learning methods applied to drone imagery for distinguishing O. robusta from surroundings. Findings from this project should guide future O. robusta mapping efforts, enabling improved management and control of this significant weed species.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kelvins SpotGEO Challenge</title>
-      <link>https://bochenys.github.io/project/spotgeo/</link>
-      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/project/spotgeo/</guid>
-      <description>&lt;p&gt;The Geostationary orbit (GEO) is home to many important space assets such as telecommunication and navigational satellites. Monitoring Resident Space Objects (RSOs) in GEO is a crucial aspect in achieving Space Situational Awareness (SSA) and in protecting critical space assets. However, ground-based GEO object detection is challenging due to the extreme distance of the targets, as well as nuisance factors including cloud coverage, atmospheric/weather effects, light pollution, sensor noise/defects, and star occlusions. The Kelvins SpotGEO Challenge is designed to establish to what extent images coming from a low-cost ground-based telescope can be used to detect GEO and near-GEO RSOs solely from image sequences that do not carry any additional meta-data. At the same time, the &lt;a href=&#34;https://doi.org/10.5281/zenodo.3874326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SpotGEO dataset&lt;/a&gt; also addresses the lack of publicly available datasets from a computer vision perspective on the satellite detection problem; by assembling and releasing such a dataset, we hope to spur more efforts on the optical detection of RSOs and enable objective benchmarking for existing and future methods. For more detals about this challenge, visit &lt;a href=&#34;https://kelvins.esa.int/spot-the-geo-satellites/home/&#34;&gt;https://kelvins.esa.int/spot-the-geo-satellites/home/&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sattelite Pose Estimation</title>
-      <link>https://bochenys.github.io/project/spe/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/project/spe/</guid>
-      <description>&lt;p&gt;Estimating the 6DOF pose of space-borne objects (e.g., satellites, spacecraft, orbital debris) is a crucial step in many space operations such as docking, non-cooperative proximity tasks (e.g., debris removal), and inter-spacecraft communications (e.g., establishing quantum links). Existing solutions are mainly based on active sensor-based systems, e.g., the TriDAR system which uses LiDAR. Recently, monocular pose estimation techniques for space applications are drawing significant attention due to their lower power consumption and relatively simple requirements.&lt;/p&gt;
-&lt;p&gt;In this project, we propose an approach to estimate the 6DOF pose of a satellite, relative to a canonical pose, from a single image. Our approach combines machine learning and geometric optimisation, by predicting the coordinates of a set of landmarks in the input image, associating the landmarks to their corresponding 3D points on an a priori reconstructed 3D model, then solving for the object pose using non-linear optimisation. Our approach is not only novel for this specific pose estimation task, which helps to further open up a relatively new domain for machine learning and computer vision, but it also demonstrates superior accuracy and won the first place in the recent Kelvins Pose Estimation Challenge organised by the European Space Agency (ESA).&lt;/p&gt;
+      <title>Example Project</title>
+      <link>https://bochenys.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
