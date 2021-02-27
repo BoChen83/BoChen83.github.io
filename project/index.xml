@@ -5,12 +5,21 @@
     <link>https://bochenys.github.io/project/</link>
       <atom:link href="https://bochenys.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://bochenys.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Robust Object Pose Estimation</title>
+      <link>https://bochenys.github.io/project/rope/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/project/rope/</guid>
+      <description>&lt;p&gt;This project conducts object pose estimation under various degrees of occlusion. Our model is able to accurately detect the target object, predict the object keypoints, and estimate its pose, even under severe occlusions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cactus Mapping</title>

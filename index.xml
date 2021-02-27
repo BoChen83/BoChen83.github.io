@@ -33,6 +33,15 @@
     </item>
     
     <item>
+      <title>Robust Object Pose Estimation</title>
+      <link>https://bochenys.github.io/project/rope/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/project/rope/</guid>
+      <description>&lt;p&gt;This project conducts object pose estimation under various degrees of occlusion. Our model is able to accurately detect the target object, predict the object keypoints, and estimate its pose, even under severe occlusions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SpotGEO dataset</title>
       <link>https://bochenys.github.io/publication/spotgeo_dataset/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
