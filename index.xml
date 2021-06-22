@@ -33,6 +33,30 @@
     </item>
     
     <item>
+      <title>Occlusion-Invariant Object Pose Estimation with Holistic Representation</title>
+      <link>https://bochenys.github.io/publication/rope/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/rope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Spacecraft Dataset for Detection, Segmentation and Parts Recognition</title>
+      <link>https://bochenys.github.io/publication/spaceseg_dataset/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/spaceseg_dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spot the GEO Satellites: From Dataset to Kelvins SpotGEO Challenge</title>
+      <link>https://bochenys.github.io/publication/spotgeo/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/spotgeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robust Object Pose Estimation</title>
       <link>https://bochenys.github.io/project/rope/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
