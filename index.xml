@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Edge AI</title>
+      <link>https://bochenys.github.io/project/edgeai/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/project/edgeai/</guid>
+      <description>&lt;p&gt;Enabling AI on edge devices has profound applicational potential ranging from IoT to Spacecraft. This project aims to tackle key issues of edge AI which entails transfer learning, data bottleneck and efficient updating.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Robust Object Pose Estimation</title>
       <link>https://bochenys.github.io/project/rope/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
