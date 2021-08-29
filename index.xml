@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Physical Adversarial Attacks on an Aerial Imagery Object Detector</title>
+      <link>https://bochenys.github.io/publication/physical_attack/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/physical_attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Spacecraft Dataset for Detection, Segmentation and Parts Recognition</title>
       <link>https://bochenys.github.io/publication/spaceseg_dataset/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
@@ -67,14 +75,6 @@
     </item>
     
     <item>
-      <title>SpotGEO dataset</title>
-      <link>https://bochenys.github.io/publication/spotgeo_dataset/</link>
-      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/publication/spotgeo_dataset/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cactus Mapping</title>
       <link>https://bochenys.github.io/project/cactus/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
@@ -94,6 +94,14 @@ This project conducted investigations into the potential of computer vision and 
     </item>
     
     <item>
+      <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
+      <link>https://bochenys.github.io/publication/bpnp/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/bpnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Anomaly Detection via Neighbourhood Contrast</title>
       <link>https://bochenys.github.io/publication/ncad/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -106,14 +114,6 @@ This project conducted investigations into the potential of computer vision and 
       <link>https://bochenys.github.io/publication/topological-sweep/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://bochenys.github.io/publication/topological-sweep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
-      <link>https://bochenys.github.io/publication/bpnp/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/publication/bpnp/</guid>
       <description></description>
     </item>
     

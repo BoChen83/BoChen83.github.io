@@ -5,7 +5,7 @@
     <link>https://bochenys.github.io/publication-type/1/</link>
       <atom:link href="https://bochenys.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Anomaly Detection via Neighbourhood Contrast</title>
-      <link>https://bochenys.github.io/publication/ncad/</link>
-      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/publication/ncad/</guid>
+      <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
+      <link>https://bochenys.github.io/publication/bpnp/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/bpnp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>End-to-End Learnable Geometric Vision by Backpropagating PnP Optimization</title>
-      <link>https://bochenys.github.io/publication/bpnp/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://bochenys.github.io/publication/bpnp/</guid>
+      <title>Anomaly Detection via Neighbourhood Contrast</title>
+      <link>https://bochenys.github.io/publication/ncad/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/ncad/</guid>
       <description></description>
     </item>
     
