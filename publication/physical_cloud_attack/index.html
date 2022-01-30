@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Virtually all aspects of modern life depend on space technology. Thanks to the great advancement of computer vision in general and deep learning-based techniques in particular, over the decades, the world witnessed the growing use of deep learning in solving problems for space applications, such as self-driving robot, tracers, insect-like robot on cosmos and health monitoring of spacecraft. These are just some prominent examples that has advanced space industry with the help of deep learning. However, the success of deep learning models requires a lot of training data in order to have decent performance, while on the other hand, there are very limited amount of publicly available space datasets for the training of deep learning models. Currently, there is no public datasets for spacebased object detection or instance segmentation, partly because manually annotating object segmentation masks is very time consuming as they require pixel-level labelling, not to mention the challenge of obtaining images from space. In this paper, we aim to fill this gap by releasing a dataset for spacecraft detection, instance segmentation and part recognition. The main contribution of this work is the development of the dataset using images of space stations and satellites, with rich annotations including bounding boxes of spacecrafts and masks to the level of object parts, which are obtained with a mixture of automatic processes and manual efforts. We also provide evaluations with state-of-the-art methods in object detection and instance segmentation as a benchmark for the dataset. The link for downloading the proposed dataset can be found on https://github.com/Yurushia1998/SatelliteDataset.">
+  <meta name="description" content="Data collected by Earth-observing (EO) satellites are often afflicted by cloud cover. Detecting the presence of clouds -- which is increasingly done using deep learning -- is crucial preprocessing in EO applications. In fact, advanced EO satellites perform deep learning-based cloud detection on board the satellites and downlink only clear-sky data to save precious bandwidth. In this paper, we highlight the vulnerability of deep learning-based cloud detection towards adversarial attacks. By optimising an adversarial pattern and superimposing it into a cloudless scene, we bias the neural network into detecting clouds in the scene. Since the input spectra of cloud detectors include the non-visible bands, we generated our attacks in the multispectral domain. This opens up the potential of multi-objective attacks, specifically, adversarial biasing in the cloud-sensitive bands and visual camouflage in the visible bands. We also investigated mitigation strategies against the adversarial attacks. We hope our work further builds awareness of the potential of adversarial attacks in the EO community.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://bochenys.github.io/publication/spaceseg_dataset/">
+  <link rel="alternate" hreflang="en-us" href="https://bochenys.github.io/publication/physical_cloud_attack/">
 
   
 
@@ -265,7 +265,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://bochenys.github.io/publication/spaceseg_dataset/">
+  <link rel="canonical" href="https://bochenys.github.io/publication/physical_cloud_attack/">
 
   
   
@@ -281,15 +281,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://bochenys.github.io/publication/spaceseg_dataset/">
-  <meta property="og:title" content="A Spacecraft Dataset for Detection, Segmentation and Parts Recognition | Academic">
-  <meta property="og:description" content="Virtually all aspects of modern life depend on space technology. Thanks to the great advancement of computer vision in general and deep learning-based techniques in particular, over the decades, the world witnessed the growing use of deep learning in solving problems for space applications, such as self-driving robot, tracers, insect-like robot on cosmos and health monitoring of spacecraft. These are just some prominent examples that has advanced space industry with the help of deep learning. However, the success of deep learning models requires a lot of training data in order to have decent performance, while on the other hand, there are very limited amount of publicly available space datasets for the training of deep learning models. Currently, there is no public datasets for spacebased object detection or instance segmentation, partly because manually annotating object segmentation masks is very time consuming as they require pixel-level labelling, not to mention the challenge of obtaining images from space. In this paper, we aim to fill this gap by releasing a dataset for spacecraft detection, instance segmentation and part recognition. The main contribution of this work is the development of the dataset using images of space stations and satellites, with rich annotations including bounding boxes of spacecrafts and masks to the level of object parts, which are obtained with a mixture of automatic processes and manual efforts. We also provide evaluations with state-of-the-art methods in object detection and instance segmentation as a benchmark for the dataset. The link for downloading the proposed dataset can be found on https://github.com/Yurushia1998/SatelliteDataset."><meta property="og:image" content="https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://bochenys.github.io/publication/physical_cloud_attack/">
+  <meta property="og:title" content="Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector | Academic">
+  <meta property="og:description" content="Data collected by Earth-observing (EO) satellites are often afflicted by cloud cover. Detecting the presence of clouds -- which is increasingly done using deep learning -- is crucial preprocessing in EO applications. In fact, advanced EO satellites perform deep learning-based cloud detection on board the satellites and downlink only clear-sky data to save precious bandwidth. In this paper, we highlight the vulnerability of deep learning-based cloud detection towards adversarial attacks. By optimising an adversarial pattern and superimposing it into a cloudless scene, we bias the neural network into detecting clouds in the scene. Since the input spectra of cloud detectors include the non-visible bands, we generated our attacks in the multispectral domain. This opens up the potential of multi-objective attacks, specifically, adversarial biasing in the cloud-sensitive bands and visual camouflage in the visible bands. We also investigated mitigation strategies against the adversarial attacks. We hope our work further builds awareness of the potential of adversarial attacks in the EO community."><meta property="og:image" content="https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-01-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-06-11T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-12-03T00:00:00&#43;00:00">
   
 
   
@@ -311,16 +311,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bochenys.github.io/publication/spaceseg_dataset/"
+    "@id": "https://bochenys.github.io/publication/physical_cloud_attack/"
   },
-  "headline": "A Spacecraft Dataset for Detection, Segmentation and Parts Recognition",
+  "headline": "Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector",
   
-  "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2021-06-11T00:00:00Z",
+  "datePublished": "2022-01-01T00:00:00Z",
+  "dateModified": "2021-12-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Hoang Anh Dung"
+    "name": "Andrew Du"
   },
   
   "publisher": {
@@ -331,7 +331,7 @@
       "url": "https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Virtually all aspects of modern life depend on space technology. Thanks to the great advancement of computer vision in general and deep learning-based techniques in particular, over the decades, the world witnessed the growing use of deep learning in solving problems for space applications, such as self-driving robot, tracers, insect-like robot on cosmos and health monitoring of spacecraft. These are just some prominent examples that has advanced space industry with the help of deep learning. However, the success of deep learning models requires a lot of training data in order to have decent performance, while on the other hand, there are very limited amount of publicly available space datasets for the training of deep learning models. Currently, there is no public datasets for spacebased object detection or instance segmentation, partly because manually annotating object segmentation masks is very time consuming as they require pixel-level labelling, not to mention the challenge of obtaining images from space. In this paper, we aim to fill this gap by releasing a dataset for spacecraft detection, instance segmentation and part recognition. The main contribution of this work is the development of the dataset using images of space stations and satellites, with rich annotations including bounding boxes of spacecrafts and masks to the level of object parts, which are obtained with a mixture of automatic processes and manual efforts. We also provide evaluations with state-of-the-art methods in object detection and instance segmentation as a benchmark for the dataset. The link for downloading the proposed dataset can be found on https://github.com/Yurushia1998/SatelliteDataset."
+  "description": "Data collected by Earth-observing (EO) satellites are often afflicted by cloud cover. Detecting the presence of clouds -- which is increasingly done using deep learning -- is crucial preprocessing in EO applications. In fact, advanced EO satellites perform deep learning-based cloud detection on board the satellites and downlink only clear-sky data to save precious bandwidth. In this paper, we highlight the vulnerability of deep learning-based cloud detection towards adversarial attacks. By optimising an adversarial pattern and superimposing it into a cloudless scene, we bias the neural network into detecting clouds in the scene. Since the input spectra of cloud detectors include the non-visible bands, we generated our attacks in the multispectral domain. This opens up the potential of multi-objective attacks, specifically, adversarial biasing in the cloud-sensitive bands and visual camouflage in the visible bands. We also investigated mitigation strategies against the adversarial attacks. We hope our work further builds awareness of the potential of adversarial attacks in the EO community."
 }
 </script>
 
@@ -349,7 +349,7 @@
 
 
 
-  <title>A Spacecraft Dataset for Detection, Segmentation and Parts Recognition | Academic</title>
+  <title>Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector | Academic</title>
 
 </head>
 
@@ -680,7 +680,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>A Spacecraft Dataset for Detection, Segmentation and Parts Recognition</h1>
+  <h1>Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector</h1>
 
   
 
@@ -698,8 +698,12 @@
     
 
   <span >
-      Hoang Anh Dung</span>, <span >
+      Andrew Du</span>, <span >
+      Yee Wei Law</span>, <span >
+      Michele Sasdelli</span>, <span >
       Bo Chen</span>, <span >
+      Ken Clarke</span>, <span >
+      Michael Brown</span>, <span >
       Tat-Jun Chin</span>
   </div>
   
@@ -711,7 +715,7 @@
     
       
     
-    June 2021
+    December 2021
   </span>
   
 
@@ -763,26 +767,18 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://openaccess.thecvf.com/content/CVPR2021W/AI4Space/papers/Dung_A_Spacecraft_Dataset_for_Detection_Segmentation_and_Parts_Recognition_CVPRW_2021_paper.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2112.01723" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/spaceseg_dataset/cite.bib">
+        data-filename="/publication/physical_cloud_attack/cite.bib">
   Cite
 </a>
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://drive.google.com/drive/u/3/folders/1Q1wR9aBFCyeFEYa3wwyXNu9wk_fZdzUm" target="_blank" rel="noopener">
-  Dataset
-</a>
 
 
 
@@ -808,10 +804,26 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Virtually all aspects of modern life depend on space technology. Thanks to the great advancement of computer vision in general and deep learning-based techniques in particular, over the decades, the world witnessed the growing use of deep learning in solving problems for space applications, such as self-driving robot, tracers, insect-like robot on cosmos and health monitoring of spacecraft. These are just some prominent examples that has advanced space industry with the help of deep learning. However, the success of deep learning models requires a lot of training data in order to have decent performance, while on the other hand, there are very limited amount of publicly available space datasets for the training of deep learning models. Currently, there is no public datasets for spacebased object detection or instance segmentation, partly because manually annotating object segmentation masks is very time consuming as they require pixel-level labelling, not to mention the challenge of obtaining images from space. In this paper, we aim to fill this gap by releasing a dataset for spacecraft detection, instance segmentation and part recognition. The main contribution of this work is the development of the dataset using images of space stations and satellites, with rich annotations including bounding boxes of spacecrafts and masks to the level of object parts, which are obtained with a mixture of automatic processes and manual efforts. We also provide evaluations with state-of-the-art methods in object detection and instance segmentation as a benchmark for the dataset. The link for downloading the proposed dataset can be found on <a href="https://github.com/Yurushia1998/SatelliteDataset">https://github.com/Yurushia1998/SatelliteDataset</a>.</p>
+    <p class="pub-abstract">Data collected by Earth-observing (EO) satellites are often afflicted by cloud cover. Detecting the presence of clouds &ndash; which is increasingly done using deep learning &ndash; is crucial preprocessing in EO applications. In fact, advanced EO satellites perform deep learning-based cloud detection on board the satellites and downlink only clear-sky data to save precious bandwidth. In this paper, we highlight the vulnerability of deep learning-based cloud detection towards adversarial attacks. By optimising an adversarial pattern and superimposing it into a cloudless scene, we bias the neural network into detecting clouds in the scene. Since the input spectra of cloud detectors include the non-visible bands, we generated our attacks in the multispectral domain. This opens up the potential of multi-objective attacks, specifically, adversarial biasing in the cloud-sensitive bands and visual camouflage in the visible bands. We also investigated mitigation strategies against the adversarial attacks. We hope our work further builds awareness of the potential of adversarial attacks in the EO community.</p>
     
 
     
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#3">
+              Preprint
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     
@@ -820,7 +832,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>CVPRW</em></div>
+          <div class="col-12 col-md-9">In <em>arXiv preprint arXiv:2112.01723</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -852,7 +864,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://bochenys.github.io/publication/spaceseg_dataset/&amp;text=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://bochenys.github.io/publication/physical_cloud_attack/&amp;text=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -865,7 +877,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://bochenys.github.io/publication/spaceseg_dataset/&amp;t=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://bochenys.github.io/publication/physical_cloud_attack/&amp;t=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -878,7 +890,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition&amp;body=https://bochenys.github.io/publication/spaceseg_dataset/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector&amp;body=https://bochenys.github.io/publication/physical_cloud_attack/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -891,7 +903,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://bochenys.github.io/publication/spaceseg_dataset/&amp;title=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://bochenys.github.io/publication/physical_cloud_attack/&amp;title=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -904,7 +916,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition%20https://bochenys.github.io/publication/spaceseg_dataset/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector%20https://bochenys.github.io/publication/physical_cloud_attack/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -917,7 +929,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://bochenys.github.io/publication/spaceseg_dataset/&amp;title=A%20Spacecraft%20Dataset%20for%20Detection,%20Segmentation%20and%20Parts%20Recognition" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://bochenys.github.io/publication/physical_cloud_attack/&amp;title=Adversarial%20Attacks%20against%20a%20Satellite-borne%20Multispectral%20Cloud%20Detector" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -936,6 +948,18 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -1075,6 +1099,18 @@
 
 
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1095,9 +1131,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/physical_cloud_attack/">Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector</a></li>
-      
       <li><a href="/publication/physical_attack/">Physical Adversarial Attacks on an Aerial Imagery Object Detector</a></li>
+      
+      <li><a href="/publication/spaceseg_dataset/">A Spacecraft Dataset for Detection, Segmentation and Parts Recognition</a></li>
       
       <li><a href="/publication/spotgeo/">Spot the GEO Satellites: From Dataset to Kelvins SpotGEO Challenge</a></li>
       
