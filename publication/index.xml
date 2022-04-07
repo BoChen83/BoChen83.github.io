@@ -5,12 +5,28 @@
     <link>https://bochenys.github.io/publication/</link>
       <atom:link href="https://bochenys.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://bochenys.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Asynchronous Optimisation for Event-based Visual Odometry</title>
+      <link>https://bochenys.github.io/publication/event_visual_odometry/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/event_visual_odometry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update Compression for Deep Neural Networks on the Edge</title>
+      <link>https://bochenys.github.io/publication/update_compression/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/update_compression/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector</title>
