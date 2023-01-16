@@ -5,12 +5,20 @@
     <link>https://bochenys.github.io/tag/source-themes/</link>
       <atom:link href="https://bochenys.github.io/tag/source-themes/index.xml" rel="self" type="application/rss+xml" />
     <description>Source Themes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bochenys.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Source Themes</title>
       <link>https://bochenys.github.io/tag/source-themes/</link>
     </image>
+    
+    <item>
+      <title>Satellite Pose Estimation Competition 2021: Results and analyses</title>
+      <link>https://bochenys.github.io/publication/spec2021/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://bochenys.github.io/publication/spec2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Satellite Pose Estimation with Deep Landmark Regression and Nonlinear Pose Refinement</title>
